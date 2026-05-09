@@ -1,0 +1,23 @@
+# Variables de entorno - NUNCA subir a GitHub
+.env
+
+# Archivos de base de datos locales
+*.sql
+
+# Configuracion de hosting real
+config/conexion.hosting.php
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencias
+vendor/
+node_modules/
+
+# Archivos temporales
+*.tmp
+*.cache
